@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 350px;
+}
+
+/* Signup box */
+.signup-box {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+    color: #8e8e8e;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Facebook button */
+.facebook-btn {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* Divider */
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #dbdbdb;
+}
+
+.divider span {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+/* Inputs */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background: #fafafa;
+}
+
+/* Signup button */
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #b2dffc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Terms */
+.terms {
+    font-size: 11px;
+    color: #8e8e8e;
+    margin-top: 15px;
+}
+
+/* Login box */
+.login-box {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.login-box a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
